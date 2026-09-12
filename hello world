@@ -1,1 +1,43 @@
 
+## Program:
+
+fun main(){
+    print("Hello World!")
+}
+
+              (or)
+
+fun main(){
+    println("Hello World!")
+}
+
+
+## Explanation:
+1. fun() means it declares a function.
+2. main() function means where your program starts from.
+3. the body of a function is writtenn wihting curly braces{}.
+4. print() and println() functions is used to print their arguments to standard output.
+
+## NOTE: 
+Function : It is a set of instructions that prforms a specific tasks. 
+
+
+## Variables:
+
+Here two types of variables there are 
+1. Read-only variables with (val). => we can't change the values in read-only variable.
+2. mutable variables with (var).
+
+Example: 
+
+fun main(){
+    val biriyani = 80 
+    val chickenbiriyani = 120 
+    var customers = 200          //it is mutable variable
+
+    customers = 150
+    print(customers)
+}
+
+
+
