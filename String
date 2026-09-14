@@ -1,1 +1,23 @@
 
+String: it is a sequence of characters in double quotes (""). Template expression always start with dollar sign ($).
+
+String is a immutable. 
+
+## Example : 
+fun main(){
+    val name = "Mary"
+    val age = 20 
+
+    print("$name is $age years old")
+}
+
+
+## Declare a String :
+
+val name : String = "Kotlin"
+val msg = "Hello World"       //kotlin infers string
+
+2.("") strings literals support escape sequences such as "/n" or "/t"
+
+val msg = "Hello, /nWorld"
+val msg = "kotlin says, \"Hi\ "."
